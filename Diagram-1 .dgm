@@ -1,0 +1,72 @@
+{
+    "connectionName": "Local_Oracle",
+    "layout": {
+        "items": [
+            {
+                "type": "TABLE",
+                "name": "ORDER_LINE",
+                "schema": "SYSTEM",
+                "bounds": {
+                    "x": 193,
+                    "y": -61,
+                    "width": 308.5445098876953,
+                    "height": 198
+                }
+            },
+            {
+                "type": "TABLE",
+                "name": "PRODUCT_T",
+                "schema": "SYSTEM",
+                "bounds": {
+                    "x": 614.5445098876953,
+                    "y": -47.5,
+                    "width": 439.8508758544922,
+                    "height": 171
+                }
+            },
+            {
+                "type": "TABLE",
+                "name": "ORDER_T",
+                "schema": "SYSTEM",
+                "bounds": {
+                    "x": 193.8989028930664,
+                    "y": 213,
+                    "width": 306.7467041015625,
+                    "height": 173
+                }
+            },
+            {
+                "type": "TABLE",
+                "name": "CUSTOMER_T",
+                "schema": "SYSTEM",
+                "bounds": {
+                    "x": 137,
+                    "y": 466,
+                    "width": 446.7560272216797,
+                    "height": 221
+                }
+            },
+            {
+                "type": "RELATION",
+                "name": "ORDER_FK",
+                "sourceID": "SYSTEM.CUSTOMER_T",
+                "targetID": "SYSTEM.ORDER_T",
+                "style": "dash"
+            },
+            {
+                "type": "RELATION",
+                "name": "ORDERLINE_FK1",
+                "sourceID": "SYSTEM.PRODUCT_T",
+                "targetID": "SYSTEM.ORDER_LINE",
+                "style": "solid"
+            },
+            {
+                "type": "RELATION",
+                "name": "ORDERLINE_FK2",
+                "sourceID": "SYSTEM.ORDER_T",
+                "targetID": "SYSTEM.ORDER_LINE",
+                "style": "solid"
+            }
+        ]
+    }
+}
