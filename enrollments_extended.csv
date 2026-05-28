@@ -1,0 +1,21 @@
+enrollment_id,student_id,course_id,semester,grade
+1,1,101,Fall 2025,A
+2,1,102,Fall 2025,B
+3,2,104,Fall 2025,A
+4,2,101,Spring 2026,A
+5,3,103,Fall 2025,C
+6,4,101,Fall 2025,B
+7,4,106,Spring 2026,
+8,5,105,Fall 2025,A
+9,6,104,Spring 2026,D
+10,7,103,Fall 2025,B
+11,8,102,Spring 2026,A
+12,8,106,Spring 2026,B
+13,9,105,Spring 2026,A
+14,9,110,Spring 2026,B
+15,10,104,Fall 2025,
+16,10,107,Spring 2026,B
+17,3,108,Spring 2026,A
+18,5,109,Spring 2026,A
+19,1,110,Spring 2026,A
+20,7,108,Fall 2025,B
